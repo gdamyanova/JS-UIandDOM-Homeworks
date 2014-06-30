@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW5-Raphael\JSDOMandUIHW5-Raphael\bin\JSDOMandUIHW5_Raphael.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW5-Raphael\JSDOMandUIHW5-Raphael\bin\JSDOMandUIHW5_Raphael.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW5-Raphael\JSDOMandUIHW5-Raphael\bin\JSDOMandUIHW5_Raphael.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW5-Raphael\JSDOMandUIHW5-Raphael\obj\Debug\JSDOMandUIHW5_Raphael.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW5-Raphael\JSDOMandUIHW5-Raphael\obj\Debug\JSDOMandUIHW5_Raphael.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW5-Raphael\JSDOMandUIHW5-Raphael\obj\Debug\JSDOMandUIHW5_Raphael.pdb

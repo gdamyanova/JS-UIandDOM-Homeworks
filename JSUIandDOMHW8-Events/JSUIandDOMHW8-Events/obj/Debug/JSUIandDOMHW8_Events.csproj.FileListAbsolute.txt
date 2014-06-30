@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW8-Events\JSUIandDOMHW8-Events\bin\JSUIandDOMHW8_Events.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW8-Events\JSUIandDOMHW8-Events\bin\JSUIandDOMHW8_Events.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW8-Events\JSUIandDOMHW8-Events\bin\JSUIandDOMHW8_Events.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW8-Events\JSUIandDOMHW8-Events\obj\Debug\JSUIandDOMHW8_Events.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW8-Events\JSUIandDOMHW8-Events\obj\Debug\JSUIandDOMHW8_Events.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW8-Events\JSUIandDOMHW8-Events\obj\Debug\JSUIandDOMHW8_Events.pdb

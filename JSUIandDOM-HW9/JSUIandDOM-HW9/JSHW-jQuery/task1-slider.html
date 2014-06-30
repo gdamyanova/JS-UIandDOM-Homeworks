@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Slider Control</title>
+    <script src='jquery-2.1.1.min.js'></script>
+    <script src='handlebars-v1.3.0.js'></script>
+    <script src='images.js'></script>
+    <style>
+        img {
+            width: 427px;
+            height: 300px;
+        }
+
+        button {
+            width:140px;
+            height:30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="slider"></div>
+    <button id="btn-prev">Previous</button>
+    <button id="btn-slide">Slideshow</button>
+    <button id="btn-next">Next</button>
+
+    <script type="text/x-handlebars-template" id="slider-template">
+        {{#slides}}
+        <div class="slide">
+            <img alt="{{alt}}" src="{{src}}">
+        </div>
+        {{/slides}}
+    </script>
+
+    <script>
+        (function () {
+
+            var timeoutID = false;
+
+            var template = Handlebars.compile($('#slider-template').html());
+            $('#slider').html(template({ slides: images() }));
+
+            $('.slide').hide();
+            $('.slide').first().addClass('current').show();
+
+            $.fn.nextOrFirst = function () {
+                var next = this.next();
+                return (next.length) ? next : this.prevAll().last();
+            };
+
+            $.fn.prevOrLast = function () {
+                var prev = this.prev();
+                return (prev.length) ? prev : this.nextAll().last();
+            };
+
+            var showNext = function () {
+                $('.current').removeClass('current').hide().nextOrFirst().addClass('current').show();
+            };
+
+            var showPrev = function () {
+                $('.current').removeClass('current').hide().prevOrLast().addClass('current').show();
+            };
+
+            var slideShow = function () {
+                showNext();
+                timeoutID = setTimeout(slideShow, 2000);
+            }
+
+            $('#btn-next').click(showNext);
+            $('#btn-prev').click(showPrev);
+            $('#btn-slide').click(function () {
+                if (timeoutID) {
+                    clearTimeout(timeoutID);
+                    timeoutID = false;
+                } else {
+                    slideShow();
+                }
+            });
+
+        })();
+    </script>
+</body>
+
+</html>

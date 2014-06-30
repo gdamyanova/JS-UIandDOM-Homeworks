@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOM-HW9\JSUIandDOM-HW9\bin\JSUIandDOM_HW9.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOM-HW9\JSUIandDOM-HW9\bin\JSUIandDOM_HW9.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOM-HW9\JSUIandDOM-HW9\bin\JSUIandDOM_HW9.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOM-HW9\JSUIandDOM-HW9\obj\Debug\JSUIandDOM_HW9.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOM-HW9\JSUIandDOM-HW9\obj\Debug\JSUIandDOM_HW9.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOM-HW9\JSUIandDOM-HW9\obj\Debug\JSUIandDOM_HW9.pdb

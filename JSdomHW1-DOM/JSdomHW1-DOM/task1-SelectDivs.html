@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>01-Select All Divs</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div>An inner div.</div>
+        <div>Another inner div.</div>
+    </div>
+    <div>An outside div.</div>
+    <button onclick="onQuerySelectorAllClick()">Select using querySelectorAll()</button>
+    <button onclick="onGetElementsByTagNameClick()">Select using getElementsByTagName()</button>
+    <p id="querySelector"></p>
+    <p id="getByTagName"></p>
+
+    <!--Write a script that selects all the div nodes that are
+    directly inside other div elements
+     Create a function using querySelectorAll()
+     Create a function using getElementsByTagName()-->
+    <script>
+
+        function onGetElementsByTagNameClick() {
+
+            var allDivs = document.getElementsByTagName('div');
+            var innerDivs = [];
+            for (var i = 0; i < allDivs.length; i += 1) {
+                if (allDivs[i].parentNode instanceof HTMLDivElement) {
+                    innerDivs.push(allDivs[i]);
+                }
+            }
+
+            document.getElementById('getByTagName').innerHTML = 'Number of inner divs: ' + innerDivs.length;
+        }
+
+        function onQuerySelectorAllClick() {
+
+            var innerDivs = document.querySelectorAll('div div');
+            document.getElementById('querySelector').innerHTML = 'Number of inner divs: ' + innerDivs.length;
+        }
+
+    </script>
+</body>
+</html>

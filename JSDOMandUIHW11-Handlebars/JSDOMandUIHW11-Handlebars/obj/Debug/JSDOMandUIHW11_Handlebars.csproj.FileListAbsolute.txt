@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW11-Handlebars\JSDOMandUIHW11-Handlebars\bin\JSDOMandUIHW11_Handlebars.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW11-Handlebars\JSDOMandUIHW11-Handlebars\bin\JSDOMandUIHW11_Handlebars.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW11-Handlebars\JSDOMandUIHW11-Handlebars\bin\JSDOMandUIHW11_Handlebars.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW11-Handlebars\JSDOMandUIHW11-Handlebars\obj\Debug\JSDOMandUIHW11_Handlebars.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW11-Handlebars\JSDOMandUIHW11-Handlebars\obj\Debug\JSDOMandUIHW11_Handlebars.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW11-Handlebars\JSDOMandUIHW11-Handlebars\obj\Debug\JSDOMandUIHW11_Handlebars.pdb

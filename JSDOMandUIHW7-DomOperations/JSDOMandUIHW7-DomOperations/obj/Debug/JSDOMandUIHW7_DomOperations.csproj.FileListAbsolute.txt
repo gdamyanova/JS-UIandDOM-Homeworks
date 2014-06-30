@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW7-DomOperations\JSDOMandUIHW7-DomOperations\bin\JSDOMandUIHW7_DomOperations.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW7-DomOperations\JSDOMandUIHW7-DomOperations\bin\JSDOMandUIHW7_DomOperations.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW7-DomOperations\JSDOMandUIHW7-DomOperations\bin\JSDOMandUIHW7_DomOperations.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW7-DomOperations\JSDOMandUIHW7-DomOperations\obj\Debug\JSDOMandUIHW7_DomOperations.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW7-DomOperations\JSDOMandUIHW7-DomOperations\obj\Debug\JSDOMandUIHW7_DomOperations.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSDOMandUIHW7-DomOperations\JSDOMandUIHW7-DomOperations\obj\Debug\JSDOMandUIHW7_DomOperations.pdb

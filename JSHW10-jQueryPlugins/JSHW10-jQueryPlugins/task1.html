@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Dropdown List</title>
+    <script src='jquery-2.1.1.min.js'></script>
+    <style>
+        .selected {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <select id="dropdown">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+    <p>Click on a list item and see the selected option printed above.</p>
+
+    <script>
+        // Create a jQuery plugin for creating dropdown list
+        (function ($) {
+            $.fn.dropdown = function () {
+                var $select = $(this);
+                $select.hide();
+
+                $container = $('<div>').addClass('dropdown-list-container');
+                $ul = $('<ul>').addClass('dropdown-list-options').css('cursor', 'pointer');
+                $container.append($ul);
+
+                $select.children().each(function (index) {
+                    $option = $(this);
+
+                    $('<li>')
+                        .addClass('dropdown-list-option')
+                        .attr('data-value', index)
+                        .text($option.text())
+                        .click(select)
+                        .appendTo($ul);
+                });
+
+                function select() {
+                    $li = $(this);
+                    $li.siblings().removeClass('selected');
+                    $li.addClass('selected');
+
+                    $select.children().removeAttr('selected')
+                    var value = +$li.attr('data-value') + 1; // 1, 2, 3...
+
+                    var selector = "[value='" + value + "']";
+                    $select.find(selector).attr('selected', 'selected');
+
+                    $("div").append($('#dropdown option:selected').text());
+                }
+
+                $container.insertAfter($select);
+
+                return $container;
+            }
+        }(jQuery));
+
+        $('#dropdown').dropdown();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW4-SVG\JSUIandDOMHW4-SVG\bin\JSUIandDOMHW4_SVG.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW4-SVG\JSUIandDOMHW4-SVG\bin\JSUIandDOMHW4_SVG.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW4-SVG\JSUIandDOMHW4-SVG\bin\JSUIandDOMHW4_SVG.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW4-SVG\JSUIandDOMHW4-SVG\obj\Debug\JSUIandDOMHW4_SVG.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW4-SVG\JSUIandDOMHW4-SVG\obj\Debug\JSUIandDOMHW4_SVG.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSUIandDOMHW4-SVG\JSUIandDOMHW4-SVG\obj\Debug\JSUIandDOMHW4_SVG.pdb

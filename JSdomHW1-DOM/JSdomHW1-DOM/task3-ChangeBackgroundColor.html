@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Crеate a function that gets the value of <input
+type="color"> and sets the background of the body
+to this value-->
+<head>
+    <title>Task3 - Change Background</title>
+</head>
+<body>
+    <div>
+        <input type="color" />
+        <button onclick="onChangeColorClick()">Change Background</button>
+    </div>
+
+    <script>
+
+        function onChangeColorClick() {
+
+            var desiredColor = document.getElementsByTagName('input')[0];
+            var changeColorButton = document.getElementsByTagName('button')[0];
+            color = desiredColor.value;
+            changeBackgroundColor(color);
+        };
+
+        function changeBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+        };
+    </script>
+</body>
+</html>

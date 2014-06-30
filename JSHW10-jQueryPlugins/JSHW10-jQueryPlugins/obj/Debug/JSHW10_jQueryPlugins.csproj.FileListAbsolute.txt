@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSHW10-jQueryPlugins\JSHW10-jQueryPlugins\bin\JSHW10_jQueryPlugins.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSHW10-jQueryPlugins\JSHW10-jQueryPlugins\bin\JSHW10_jQueryPlugins.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSHW10-jQueryPlugins\JSHW10-jQueryPlugins\bin\JSHW10_jQueryPlugins.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSHW10-jQueryPlugins\JSHW10-jQueryPlugins\obj\Debug\JSHW10_jQueryPlugins.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSHW10-jQueryPlugins\JSHW10-jQueryPlugins\obj\Debug\JSHW10_jQueryPlugins.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSHW10-jQueryPlugins\JSHW10-jQueryPlugins\obj\Debug\JSHW10_jQueryPlugins.pdb

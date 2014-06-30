@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW3-KineticJS\JSdomHW3-KineticJS\bin\JSdomHW3_KineticJS.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW3-KineticJS\JSdomHW3-KineticJS\bin\JSdomHW3_KineticJS.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW3-KineticJS\JSdomHW3-KineticJS\bin\JSdomHW3_KineticJS.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW3-KineticJS\JSdomHW3-KineticJS\obj\Debug\JSdomHW3_KineticJS.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW3-KineticJS\JSdomHW3-KineticJS\obj\Debug\JSdomHW3_KineticJS.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW3-KineticJS\JSdomHW3-KineticJS\obj\Debug\JSdomHW3_KineticJS.pdb

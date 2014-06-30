@@ -1,0 +1,6 @@
+C:\Users\grayscale\Documents\Visual Studio 2013\Projects\JSdomHW2-Canvas\JSdomHW2-Canvas\bin\JSdomHW2_Canvas.dll.config
+C:\Users\grayscale\Documents\Visual Studio 2013\Projects\JSdomHW2-Canvas\JSdomHW2-Canvas\bin\JSdomHW2_Canvas.dll
+C:\Users\grayscale\Documents\Visual Studio 2013\Projects\JSdomHW2-Canvas\JSdomHW2-Canvas\bin\JSdomHW2_Canvas.pdb
+C:\Users\grayscale\Documents\Visual Studio 2013\Projects\JSdomHW2-Canvas\JSdomHW2-Canvas\obj\Debug\JSdomHW2_Canvas.csprojResolveAssemblyReference.cache
+C:\Users\grayscale\Documents\Visual Studio 2013\Projects\JSdomHW2-Canvas\JSdomHW2-Canvas\obj\Debug\JSdomHW2_Canvas.dll
+C:\Users\grayscale\Documents\Visual Studio 2013\Projects\JSdomHW2-Canvas\JSdomHW2-Canvas\obj\Debug\JSdomHW2_Canvas.pdb

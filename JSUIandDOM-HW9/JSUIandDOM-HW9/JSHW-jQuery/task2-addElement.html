@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Insert Element</title>
+    <script src='jquery-2.1.1.min.js'></script>
+    <style>
+        button {
+            display: block;
+            width: 60px;
+        }
+        #current{
+            color:green;
+            font-size:20px;
+            font-weight:bold;
+        }
+        #before, #after {
+            color: red;
+            font-size:24px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="current">I'll follow</div>
+    <div id="after">Move me!</div>
+    <button id="btn-before">Move up</button>
+    <button id="btn-after">Move down</button>
+
+    <script>
+        // Using jQuery implement functionality to insert a DOM element before or after another element
+        (function () {
+            $('#btn-before').click(function(){
+                if ($('#after').length)$('#after').attr('id', 'before').insertBefore('#current');
+            });
+
+            $('#btn-after').click(function(){
+                if ($('#before').length)$('#before').attr('id', 'after').insertAfter('#current');
+            });
+
+        })();
+    </script>
+</body>
+
+</html>
+

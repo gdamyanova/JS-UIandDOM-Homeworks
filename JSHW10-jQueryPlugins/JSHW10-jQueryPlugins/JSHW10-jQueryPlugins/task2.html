@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Message Box</title>
+    <script src='jquery-2.1.1.min.js'></script>
+    <style>
+        button {
+            width:100px;
+            height:30px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn-success">Success</button>
+    <button id="btn-error">Error</button>
+    <div id="message-box"></div>
+
+    <script>
+         // Create a jQuery plugin for fading in/fading out message box
+         // Showing is done by setting the opacity of the message from 0 to 1 in an interval of 1 second
+         // The message disappears after 3 seconds
+
+        (function ($) {
+            $.fn.messageBox = function () {
+                $mbox = $(this);
+                $mbox.hide();
+
+                function display(message, color, float) {
+                    return $mbox.text(message).css('color', color).fadeIn(500).delay(2000).fadeOut(500);
+                }
+
+                $mbox.success = function (message) {
+                    return display(message, 'green');
+                }
+
+                $mbox.error = function (message) {
+                    return display(message, 'red');
+                }
+
+                return $mbox;
+            }
+        }(jQuery));
+
+        var $msgBox = $('#message-box').messageBox();
+
+        $('#btn-success').click(function () {
+            $msgBox.success('Success message');
+        });
+
+        $('#btn-error').click(function () {
+            $msgBox.error('Error message');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW1-DOM\JSdomHW1-DOM\bin\JSdomHW1_DOM.dll.config
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW1-DOM\JSdomHW1-DOM\bin\JSdomHW1_DOM.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW1-DOM\JSdomHW1-DOM\bin\JSdomHW1_DOM.pdb
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW1-DOM\JSdomHW1-DOM\obj\Debug\JSdomHW1_DOM.csprojResolveAssemblyReference.cache
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW1-DOM\JSdomHW1-DOM\obj\Debug\JSdomHW1_DOM.dll
+c:\users\grayscale\documents\visual studio 2013\Projects\JSdomHW1-DOM\JSdomHW1-DOM\obj\Debug\JSdomHW1_DOM.pdb
